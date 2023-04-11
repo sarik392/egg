@@ -1,0 +1,449 @@
+
+*{
+  /* cormorant-upright-regular - latin */
+@font-face {
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+    url("../fonts/cormorant-upright-v18-latin-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/cormorant-upright-v18-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* cormorant-upright-500 - latin */
+@font-face {
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 500;
+  src: local(""),
+    url("../fonts/cormorant-upright-v18-latin-500.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/cormorant-upright-v18-latin-500.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* cormorant-upright-600 - latin */
+@font-face {
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 600;
+  src: local(""),
+    url("../fonts/cormorant-upright-v18-latin-600.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/cormorant-upright-v18-latin-600.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* cormorant-upright-700 - latin */
+@font-face {
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""),
+    url("../fonts/cormorant-upright-v18-latin-700.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/cormorant-upright-v18-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* open-sans-regular - latin */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+    url("../fonts/open-sans-v34-latin-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/open-sans-v34-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* open-sans-600 - latin */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  src: local(""), url("../fonts/open-sans-v34-latin-600.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/open-sans-v34-latin-600.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+}
+
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: "Open Sans", "Cormorant Upright", sans-serif;
+  background: #0c0c0c;
+}
+
+.header {
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.header-logo-wrapper {
+}
+.header-logo {
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.header-list-wrapper {
+}
+.header-list {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.header-list-item {
+}
+.header-list-link {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+.header-content-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.header-link {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+.chiziq {
+  width: 0.1px;
+  height: 40px;
+  background: #ffffff;
+}
+
+.main {
+}
+.hero {
+}
+.hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 60px;
+  gap: 40px;
+  padding-bottom: 90px;
+}
+.hero-left-wrapper {
+}
+.hero-left-text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+
+  color: #ffffff;
+
+  transform: rotate(-90deg);
+}
+.hero-center-wrapper {
+}
+.hero-center-text {
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-feature-settings: "tnum" on, "lnum" on;
+  color: #ffffff;
+}
+.hero-style {
+  width: 9px;
+  height: 40px;
+  background: #dcca87;
+  transform: rotate(90deg);
+}
+.hero-heading {
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 90px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: #dcca87;
+}
+.hero-lorem {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  padding-bottom: 30px;
+  color: #aaaaaa;
+}
+.hero-btn {
+  background: #dcca87;
+  padding: 8px 32px;
+}
+.hero-btn-link {
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  color: #0c0b08;
+}
+.hero-img-wrapper {
+}
+.hero-img {
+  width: 98%;
+}
+
+/* ! about */
+.about {
+  background: url(../img/BG.jpg) no-repeat center / cover;
+}
+.about-cntainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  padding-top: 100px;
+}
+.about-content {
+  text-align: right;
+}
+.about-heading {
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 90px;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  font-feature-settings: "tnum" on, "lnum" on;
+
+  color: #dcca87;
+}
+.about-lorem {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  padding-bottom: 32px;
+  letter-spacing: 0.04em;
+  color: #aaaaaa;
+}
+.about-btn {
+  padding: 8px 32px;
+  background: #dcca87;
+}
+.about-btn-link {
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  color: #0c0c0c;
+}
+.about-img-wrapper {
+}
+.about-img {
+}
+.about-content-2 {
+  text-align: left;
+}
+
+/* ! contact */
+
+.contact {
+}
+.contact-container {
+  text-align: center;
+  background: #0c0c0c;
+  border: 1px solid rgba(220, 202, 135, 0.2);
+  box-shadow: 22px 30px 95px 1px rgba(0, 0, 0, 0.7);
+  margin: 100px;
+  padding-top: 48px;
+}
+.contact-text {
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-feature-settings: "tnum" on, "lnum" on;
+  color: #ffffff;
+}
+.contact-heading {
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  font-feature-settings: "tnum" on, "lnum" on;
+  color: #dcca87;
+}
+.contact-inp-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: 64px;
+}
+.contact-inp {
+  border: 1px solid #f5efdb;
+  background: none;
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-bottom: 16px;
+  padding-right: 70px;
+}
+.about-btn {
+  margin-bottom: 69px;
+}
+.about-btn-link {
+}
+
+.list-sect {
+  background: url(../img/piva.png) no-repeat center / cover;
+  width: 100%;
+}
+.list-container {
+  padding: 150px;
+}
+.list {
+}
+.list-item {
+  padding-bottom: 30px;
+}
+.list-link {
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  text-decoration-line: underline;
+  text-transform: capitalize;
+  font-feature-settings: "tnum" on, "lnum" on;
+  color: #ffffff;
+}
+
+.today {
+  padding-top: 50px;
+}
+.today-sect-text {
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  text-align: center;
+  color: #ffffff;
+}
+.today-sect-heading {
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: #dcca87;
+}
+.today-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.today-content {
+}
+.today-heading {
+  text-align: center;
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-feature-settings: "tnum" on, "lnum" on;
+  color: #ffffff;
+}
+.today-price-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+.today-price-heading {
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-feature-settings: "tnum" on, "lnum" on;
+  color: #dcca87;
+}
+.today-price-heading span {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #aaaaaa;
+}
+.today-price {
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-feature-settings: "tnum" on, "lnum" on;
+  color: #ffffff;
+}
+.today-img-wrapper {
+}
